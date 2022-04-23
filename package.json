@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest algorithms"
+    "test": "npx jest src",
+    "dev": "nodemon --config nodemon.json src/main.ts"
   },
-  "author": "",
+  "jest": {
+    "verbose": true
+  },
+  "author": "Artur Tenorio",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   }
 }
