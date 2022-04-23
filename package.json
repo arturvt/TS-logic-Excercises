@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jest src",
-    "dev": "nodemon --config nodemon.json src/main.ts"
+    "dev": "nodemon --config nodemon.json src/main.ts",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "jest": {
     "verbose": true
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
+    "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"

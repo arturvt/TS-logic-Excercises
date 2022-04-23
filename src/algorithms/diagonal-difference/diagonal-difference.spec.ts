@@ -5,7 +5,7 @@ describe('Diagonal difference', () => {
     const arr = [
       [11, 2, 4],
       [4, 5, 6],
-      [10, 8, -12],
+      [10, 8, -12]
     ];
 
     expect(diagonalDifference(arr)).toBe(15);
@@ -15,7 +15,7 @@ describe('Diagonal difference', () => {
     const arr = [
       [0, 0, 0],
       [0, 0, 0],
-      [0, 0, 0],
+      [0, 0, 0]
     ];
 
     expect(diagonalDifference(arr)).toBe(0);
@@ -25,7 +25,7 @@ describe('Diagonal difference', () => {
     const arr = [
       [-1, 0, 0],
       [0, -1, 0],
-      [0, 0, -1],
+      [0, 0, -1]
     ];
 
     expect(diagonalDifference(arr)).toBe(2);
