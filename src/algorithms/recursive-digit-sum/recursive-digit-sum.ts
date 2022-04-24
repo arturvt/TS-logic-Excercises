@@ -5,6 +5,10 @@
  * The function accepts following parameters:
  *  1. STRING n
  *  2. INTEGER k
+ *
+ * Solution approach:
+ * The order of the sum does not affect the result. So, it's better to 1st do the sum of the given N and them perform the k repetitions.
+ * This approach reduces the complexity of the logic.
  */
 
 export function superDigit(n: string, k: number): number {
