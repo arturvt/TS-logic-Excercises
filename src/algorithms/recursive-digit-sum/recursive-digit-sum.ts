@@ -14,11 +14,12 @@ export function superDigit(n: string, k: number): number {
   }
 
   // remove the 0s from n as they sum is 0
-  n = n.replaceAll('0', '');
+  n = n.replace(/0/g, '');
 
-  // Write your code here
-  const concatenation = n.repeat(k);
+  const superDigitBeforeConcatenation = calculateSuperDigit(n);
+  const concatenation = superDigitBeforeConcatenation.repeat(k);
   const superDigit = calculateSuperDigit(concatenation);
+
   return +superDigit;
 }
 
