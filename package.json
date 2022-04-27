@@ -8,9 +8,6 @@
     "dev": "nodemon --config nodemon.json src/main.ts",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
-  "jest": {
-    "verbose": true
-  },
   "author": "Artur Tenorio",
   "license": "ISC",
   "devDependencies": {
