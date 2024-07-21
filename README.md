@@ -1,6 +1,6 @@
 # About
 
-Simple TS project with some hackerhank  solutions with unit tests.
+A Typescript project with some hackerhank/leetcode solutions and unit tests.
 
 
 ## Running
